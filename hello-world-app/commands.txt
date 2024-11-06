@@ -1,0 +1,9 @@
+a
+sudo docker build -t hello-world-app .
+sudo docker run -p 3020:3020 hello-world-app
+
+b
+git clone https://github.com/zenyuzien/devops_mlab.git
+cp /home/snucse/Desktop/21011102067/hello-world-app/app.js .
+cp /home/snucse/Desktop/21011102067/hello-world-app/Dockerfile .
+
